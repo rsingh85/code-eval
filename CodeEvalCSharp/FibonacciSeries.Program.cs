@@ -8,7 +8,7 @@ namespace CodeEval.FibonacciSeries
     /// </summary>
     class Program
     {
-        static void Main(string[] args)
+        static void DisabledMain(string[] args)
         {
             using (StreamReader reader = File.OpenText(args[0]))
             {
