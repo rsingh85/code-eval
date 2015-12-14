@@ -1,15 +1,14 @@
 ﻿using System;
 using System.IO;
-using System.Linq;
 
-namespace CodeEval.ReverseWords
+namespace CodeEval.FibonacciSeries
 {
     /// <summary>
-    /// https://www.codeeval.com/open_challenges/8/
+    /// https://www.codeeval.com/open_challenges/22/
     /// </summary>
     class Program
     {
-        static void DisabledMain(string[] args)
+        static void Main(string[] args)
         {
             using (StreamReader reader = File.OpenText(args[0]))
             {
@@ -21,10 +20,17 @@ namespace CodeEval.ReverseWords
                         continue;
 
                     Console.WriteLine(
-                        string.Join(" ", line.Split(' ').Reverse())
+                        Fibonacci(int.Parse(line))
                     );
                 }
             }
+        }
+
+        static int Fibonacci(int n)
+        {
+            if (n == 0 || n == 1) return n;
+
+            return Fibonacci(n - 1) + Fibonacci(n - 2);
         }
     }
 }
