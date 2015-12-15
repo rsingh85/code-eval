@@ -10,7 +10,7 @@ namespace CodeEval.StackImplementation
     /// </summary>
     class Program
     {
-        static void Main(string[] args)
+        static void DisabledMain(string[] args)
         {
             Stack<string> stack = new Stack<string>();
 
