@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LongestLines.Program.cs" />
     <Compile Include="MultiplicationTables.Program.cs" />
     <Compile Include="FizzBuzz.Program.cs" />
     <Compile Include="StackImplementation.Program.cs" />
