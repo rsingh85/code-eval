@@ -1,4 +1,5 @@
 ﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.IO;
@@ -10,7 +11,7 @@ namespace CodeEval.LongestLines
     /// </summary>
     class Program
     {
-        static void Main(string[] args)
+        static void DisabledMain(string[] args)
         {
             List<string> lines = null;
             int max = 0;
