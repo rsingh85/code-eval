@@ -28,8 +28,6 @@ namespace CodeEval.NumberOfOnes
                     );
                 }
             }
-
-            Console.ReadLine();
         }
     }
 }
